@@ -82,7 +82,7 @@ export default function Hero() {
 
         {/* Skills chips */}
         <div className="mt-10 flex flex-wrap items-center gap-2">
-          {['HTML', 'CSS', 'Advanced JS', 'C', 'Java', 'Python'].map((skill) => (
+          {['HTML', 'CSS', 'Advanced JS', 'C (Intermediate)', 'Java (Intermediate)', 'Python (Intermediate)'].map((skill) => (
             <span
               key={skill}
               className="select-none rounded-full border border-white/15 bg-white/10 px-3 py-1 text-xs font-medium text-white/90 shadow-sm backdrop-blur hover:bg-white/20 transition"
